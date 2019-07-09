@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0);
+  TextStyle style = TextStyle(fontFamily: 'Poppins', fontSize: 20.0);
 
   @override
   Widget build(BuildContext context) {

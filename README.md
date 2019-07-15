@@ -38,5 +38,5 @@ Feel free to use (or tweak it) for your own use. You will only need to copy and 
 - [UpLabs](https://www.uplabs.com/posts/login-screen-3a42ab1a-677e-4e0a-917e-d7ad52a94965) - Design Inspiration.
 
 ## 📈 Overview
-<a href="https://imgur.com/RnpqIc3"><img src="https://i.imgur.com/RnpqIc3.png" title="source: imgur.com" /></a>
+![](multipageout.gif)
 

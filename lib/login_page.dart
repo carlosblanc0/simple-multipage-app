@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class LoginPage extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+
+  final String title;
   @override
-  State<StatefulWidget> createState() {
-    return _LoginPageState();
-  }
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
-  TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0);
+class _MyHomePageState extends State<MyHomePage> {
+  TextStyle style = TextStyle(fontFamily: 'Poppins', fontSize: 20.0);
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(
                   height: 155.0,
                   child: Image.asset(
-                    "assets/myAppWallPaper.jpg", //assets/myAppWallPaper.jpg
+                    "assets/myAppWallPaper.jpg",
                     fit: BoxFit.contain,
                   ),
                 ),

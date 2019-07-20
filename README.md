@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> A Simple, Yet Beautifully Designed Multipage Built With Flutter.
+<p align="center"> A Simple Coloring App Built Using JavaFx.
     <br> 
 </p>
 
@@ -29,14 +29,14 @@
 This repository contains non-sensetive code from one of my pet projects which aims to build a simple - yet effective, app. 
 
 ## 🎈 Usage <a name="usage"></a>
-Feel free to use (or tweak it) for your own use. You will only need to copy and paste it onto a newly created Flutter project. Pro-tip: edit the <b>pubsepc.yaml</b> file on your project so that is affects the images and/or additional files you might want to implement on your own project. However, some added functionality such as Firebase, won't work properly without some tweaking which is exected.
+- Feel free to use (or tweak it) for your own use. You will only need to fork the project (and give it a star!).
 
 ## ✍️  Authors <a name = "authors"></a>
 - [@carloswhite](https://github.com/carloswhite) - Idea & added work
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [UpLabs](https://www.uplabs.com/posts/login-screen-3a42ab1a-677e-4e0a-917e-d7ad52a94965) - Design Inspiration.
+- Google was and still is my best friend!
 
 ## 📈 Overview
-![](multipageout.gif)
+- JavaFx is extremelly versatile. I can see its potential for designing desktop applications. 
 

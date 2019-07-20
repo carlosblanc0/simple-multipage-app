@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://www.codemate.com/wp-content/uploads/2016/02/flutter-logo-round.png" alt="Project logo"></a>
+ <img width=200px height=200px src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/java-icon.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Simple Multipurpose App Using Flutter</h3>

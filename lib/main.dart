@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'login_page.dart';
@@ -12,11 +13,8 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown,
     ]);
-    return MaterialApp(
+    return CupertinoApp(
       title: 'Simple Multipage App',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
       home: MyHomePage(title: 'Flutter Login'),
     );
   }

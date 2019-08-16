@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:simple_multipage_app/screens.dart';
 import 'settings.dart';
 import 'search.dart';
 

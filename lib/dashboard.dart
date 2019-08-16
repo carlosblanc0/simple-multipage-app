@@ -1,10 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:simple_multipage_app/screens.dart';
+import 'settings.dart';
+import 'search.dart';
 
 class Dashboard extends StatefulWidget {
   @override
   _DashboardState createState() => _DashboardState();
+  const Dashboard();
 }
 
 class _DashboardState extends State<Dashboard> {
@@ -18,7 +22,7 @@ class _DashboardState extends State<Dashboard> {
             title: Text('Dashboard'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(CupertinoIcons.conversation_bubble),
+            icon: Icon(CupertinoIcons.settings),
             title: Text('Support'),
           ),
           BottomNavigationBarItem(
@@ -27,38 +31,33 @@ class _DashboardState extends State<Dashboard> {
           ),
         ],
       ),
-      tabBuilder: (BuildContext context, int index) {
+      tabBuilder: (context, index) {
         assert(index >= 0 && index <= 2);
         switch (index) {
           case 0:
-            return CupertinoTabView(
-              builder: (BuildContext context) => buildPage('Home'),
-            );
+            return CupertinoTabView(builder: (context) {
+              return CupertinoPageScaffold(
+                child: SettingsTab(),
+              );
+            });
             break;
           case 1:
-            return CupertinoTabView(
-              builder: (BuildContext context) => buildPage('Support'),
-            );
+            return CupertinoTabView(builder: (context) {
+              return CupertinoPageScaffold(
+                child: SearchTab(),
+              );
+            });
             break;
           case 2:
-            return CupertinoTabView(
-              builder: (BuildContext context) => buildPage('Profile'),
-            );
+            return CupertinoTabView(builder: (context) {
+              return CupertinoPageScaffold(
+                child: SettingsTab(),
+              );
+            });
             break;
         }
         return null;
       },
-    );
-  }
-
-  Widget buildPage(String title) {
-    return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        middle: Text(title),
-      ),
-      child: Center(
-        child: CupertinoActivityIndicator(radius: 22),
-      ),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:simple_multipage_app/dashboard.dart';
 import 'package:simple_multipage_app/screens.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -43,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => SecondRoute()),
+            MaterialPageRoute(builder: (context) => Dashboard()),
           );
         },
         child: Text("Login",

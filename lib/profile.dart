@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 
-class SearchTab extends StatefulWidget {
+class ProfileTab extends StatefulWidget {
   @override
-  _SearchTabState createState() {
-    return _SearchTabState();
+  _ProfileTabState createState() {
+    return _ProfileTabState();
   }
 }
 
-class _SearchTabState extends State<SearchTab> {
+class _ProfileTabState extends State<ProfileTab> {
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
       slivers: const <Widget>[
         CupertinoSliverNavigationBar(
-          largeTitle: Text('Search'),
+          largeTitle: Text('Profile'),
         ),
       ],
     );

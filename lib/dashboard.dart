@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:simple_multipage_app/bench.dart';
 import 'settings.dart';
-import 'search.dart';
+import 'profile.dart';
 
 class Dashboard extends StatefulWidget {
   @override
@@ -22,7 +23,7 @@ class _DashboardState extends State<Dashboard> {
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.settings),
-            title: Text('Support'),
+            title: Text('Settings'),
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.profile_circled),
@@ -36,21 +37,21 @@ class _DashboardState extends State<Dashboard> {
           case 0:
             return CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
-                child: SettingsTab(),
+                child: BenchTab(),
               );
             });
             break;
           case 1:
             return CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
-                child: SearchTab(),
+                child: SettingsTab(),
               );
             });
             break;
           case 2:
             return CupertinoTabView(builder: (context) {
               return CupertinoPageScaffold(
-                child: SettingsTab(),
+                child: ProfileTab(),
               );
             });
             break;

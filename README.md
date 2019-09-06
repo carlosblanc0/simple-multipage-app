@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/java-icon.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://www.codemate.com/wp-content/uploads/2016/02/flutter-logo-round.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Simple Multipurpose App Using Flutter</h3>
+<h3 align="center">Simple Login + 3-tab App Using Flutter</h3>
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-<p align="center"> A Simple Coloring App Built Using JavaFx.
+<p align="center"> A Simple Login + 3-tab App Built Using Flutter.
     <br> 
 </p>
 
@@ -38,5 +38,5 @@ This repository contains non-sensetive code from one of my pet projects which ai
 - Google was and still is my best friend!
 
 ## 📈 Overview
-- JavaFx is extremelly versatile. I can see its potential for designing desktop applications. 
+![Three Tab app Finder Demo](multipageflutter.gif) 
 

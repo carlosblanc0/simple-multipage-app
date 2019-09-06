@@ -13,6 +13,7 @@ class _ProfileTabState extends State<ProfileTab> {
     return CustomScrollView(
       slivers: const <Widget>[
         CupertinoSliverNavigationBar(
+      
           largeTitle: Text('Profile'),
         ),
       ],
